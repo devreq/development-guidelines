@@ -18,7 +18,7 @@ and accepted by all team members before being going live.
 Coding Conventions
 ------------------
 
-Shared coding guidelines which provides consistency and maintainability by 
+Shared coding guidelines that provides consistency and maintainability by 
 offering the same set up regardless of current environment and code base.
 
 * Use soft-tabs with a two space indent.
