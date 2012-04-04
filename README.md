@@ -14,6 +14,9 @@ These guidelines are living documents and feedback is accepted in the form of
 pull requests which promotes discussions and ensures that changes are reviewed 
 and accepted by all team members before being going live.
 
+Changes are not to be merged before all team members that the changes concern 
+make a comment in the pull request which says “OK” or something to that effect.
+
 
 Coding Conventions
 ------------------
