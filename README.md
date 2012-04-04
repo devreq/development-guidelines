@@ -21,6 +21,8 @@ Coding Conventions
 Shared coding guidelines that provides consistency and maintainability by 
 offering the same set up regardless of current environment and code base.
 
+* Double quotes (`"`) are preferred to single quotes (`'`.
+
 * Use soft-tabs with a two space indent.
 
 * Aim to keep lines fewer than 80 characters.
