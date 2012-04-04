@@ -32,6 +32,33 @@ offering the same set up regardless of current environment and code base.
 
 * No spaces after `(`, `[` or before `]`, `)`.
 
+### Code Examples
+
+~~~~ html
+<div itemscope itemtype="http://schema.org/Product">
+  <h3 itemprop="name">Kenmore White 17" Microwave</h3>
+~~~~
+
+~~~~ css
+#product {
+  width: 320px;
+  background: #FFC url(/images/product_bg.png) no-repeat;
+}
+~~~~
+
+~~~~ javascript
+var add = function(a, b) {
+  return a + b;
+}
+~~~~
+
+~~~~ ruby
+sum = 1 + 2
+a, b = 1, 2
+1 > 2 ? true : false; puts 'Hi'
+[1, 2, 3].each { |e| puts e }
+~~~~
+
 
 Documentation
 -------------
