@@ -36,7 +36,7 @@ offering the same set up regardless of current environment and code base.
 
 ~~~~ html
 <div itemscope itemtype="http://schema.org/Product">
-  <h3 itemprop="name">Kenmore White 17" Microwave</h3>
+  <h3 itemprop="name">Fågelsundet 257, Fågelsundet, Vid havet, Tierp</h3>
 ~~~~
 
 ~~~~ css
