@@ -40,31 +40,31 @@ offering the same set up regardless of current environment and code base.
 
 ### Code Examples
 
-~~~~ html
+```html
 <div itemscope itemtype="http://schema.org/Product">
   <h3 itemprop="name">Fågelsundet 257, Fågelsundet, Vid havet, Tierp</h3>
 </div>
-~~~~
+```
 
-~~~~ css
+```css
 #product {
   width: 320px;
   background: #FFC url(/images/product_bg.png) no-repeat;
 }
-~~~~
+```
 
-~~~~ javascript
+```javascript
 var add = function(a, b) {
   return a + b;
 }
-~~~~
+```
 
-~~~~ ruby
+```ruby
 sum = 1 + 2
 a, b = 1, 2
 1 > 2 ? true : false; puts 'Hi'
 [1, 2, 3].each { |e| puts e }
-~~~~
+```
 
 
 Documentation
