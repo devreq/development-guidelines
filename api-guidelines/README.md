@@ -44,7 +44,7 @@ API Guidelines
     HTTP/1.1 403 
     Content-Type: application/json; charset=utf-8
     
-    errors => [
+    "errors" : [
       {
         "message": "User id invalid or missing"
       }
