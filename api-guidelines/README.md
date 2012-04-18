@@ -34,7 +34,7 @@ API Guidelines
     ]
     </pre>
 
-  * Error handling
+ *  Error handling
     
     A client who sends in a request that causes an error, from runtime error to 
     business logic violation, should receive a informative error (formatted as JSON)
