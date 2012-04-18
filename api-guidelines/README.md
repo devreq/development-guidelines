@@ -33,3 +33,26 @@ API Guidelines
       }
     ]
     </pre>
+
+  * Error handling
+    
+    A client who sends in a request that causes an error, from runtime error to 
+    business logic violation, should receive a informative error (formatted as JSON)
+    message and optionally a body describing or showing where the error came from. I.e.
+
+    <pre>
+    HTTP/1.1 403 
+    Content-Type: application/json; charset=utf-8
+    
+    errors => [
+      {
+        "message": "User id invalid or missing"
+      }
+    ]
+    </pre>   
+    
+    The http status code should be set to something in the 4xx or 5xx depending on
+    which is appropriate to the error. 400 for unparsable JSON in request, 401 for 
+    an authorisation problem and so on. More than one error can be returned.
+    
+    
