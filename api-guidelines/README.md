@@ -14,10 +14,7 @@ API Guidelines
  *  Sensible resource names
     
     Having sensible resource names/paths (e.g., `/posts/23` instead of 
-    `/api?type=posts&id=23`) improves the clarity of what a given request does. 
-    Using URL parameters is fantastic for filtering, but if everything is based 
-    on a single API endpoint and tons of parameters, the mental model required 
-    to use it gets too complex very quickly.
+    `/api?type=posts&id=23`) improves the clarity of what a given request does.
 
  *  Examples that show the full request.
     
