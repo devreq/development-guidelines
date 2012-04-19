@@ -5,12 +5,23 @@ HTML Guidelines
 
 * Explicitly include all start and end tags.
 
-* Quote all attribute values and do not use any whitespace around the equals sign.
+*   Quote all attribute values and do not use any whitespace around the equals sign.
 
-``` html
-<header role="banner"></header>
-```
+    ``` html
+    <header role="banner"></header>
+    ```
 
+*   Only use <a> for actual working links.
+
+    If you can't deliever a page on mouse click, it's not a hyperlink.
+
+    ``` html
+    <!-- Breaking the web by introducing accessibility and usability problems. --> 
+    <a href="#"></a>
+
+    <!-- How it should be done. -->
+    <span role="link"></span>
+    ```
 
 References
 ----------
