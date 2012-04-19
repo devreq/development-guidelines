@@ -32,7 +32,7 @@ HTML Guidelines
     <!-- Valid example for a decorational image without meaning. -->
     <img alt="" src="decoration.png">
     
-    <!-- Unaccessible and not to be used - ever. -->
+    <!-- Inaccessible and not to be used - ever. -->
     <img src="silver_dog.jpg">
     ```
 
