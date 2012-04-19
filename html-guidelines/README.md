@@ -23,6 +23,19 @@ HTML Guidelines
     <span role="link"></span>
     ```
 
+*   Always use `alt` text on `img`'s. Without it, they're unaccessible.
+
+    ``` html
+    <!-- Valid and descriptive example. -->
+    <img alt="Marvin in the spaceship cabin" src="marvin.png">
+    
+    <!-- Valid example for a decorational image without meaning. -->
+    <img alt="" src="decoration.png">
+    
+    <!-- Unaccessible and not to be used - ever. -->
+    <img src="silver_dog.jpg">
+    ```
+
 References
 ----------
 
