@@ -36,6 +36,8 @@ HTML Guidelines
     <img src="silver_dog.jpg">
     ```
 
+* Tabular data in tables and never for layout, with one exception: HTML emails.
+
 References
 ----------
 
