@@ -23,7 +23,7 @@ JavaScript Guidelines
   }
   ```
 
-* Use `===` and `!==` instead of `==` and `!=` to vaoid type coercion errors.
+* Use `===` and `!==` instead of `==` and `!=` to avoid type coercion errors.
 
 * All variables and functions should be declared before they are used
 
