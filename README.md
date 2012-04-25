@@ -72,6 +72,42 @@ a, b = 1, 2
 ```
 
 
+Commenting
+----------
+
+Make frequent use of comments to aid others in understanding your code. Use comments when:
+
+* Code is difficult to understand.
+
+* The code might be mistaken for an error.
+
+* Browser-specific code is necessary but not obvious.
+
+* Documentation generation is necessary for an object, method, 
+  or property (use appropriate documentation comments).
+
+
+### Comment annotations
+
+Comments may be used to annotate pieces of code with additional information. These 
+annotations take the form of a single word followed by a colon. The acceptable 
+annotations are:
+
+* `TODO` – indicates that the code is not yet complete. Information about the next 
+           steps should be included.
+
+* `HACK` – indicates that the code is using a shortcut. Information about why the 
+           hack is being used should be included. This may also indicate that it 
+           would be nice to come up with a better way to solve the problem.
+
+* `XXX` – indicates that the code is problematic and should be fixed as soon as possible.
+
+* `FIXME` – indicates that the code is problematic and should be fixed soon. Less 
+            important than `XXX`.
+
+* `REVIEW` – indicates that the code needs to be reviewed for potential changes.
+
+
 Documentation
 -------------
 
