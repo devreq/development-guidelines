@@ -54,6 +54,10 @@ References
 
 * [A Note About Git Commit Messages][r1]
 * [Remote Branch][r2]
+* [A Git Workflow for Agile Teams][r3]
+* [37signals change history][r4]
 
 [r1]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 [r2]: http://robots.thoughtbot.com/post/21306813001/remote-branch
+[r3]: http://reinh.com/blog/2009/03/02/a-git-workflow-for-agile-teams.html
+[r4]: http://37signals.com/changes
