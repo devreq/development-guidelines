@@ -1,11 +1,27 @@
 JavaScript Guidelines
 =====================
 
-* Use camel case for variables and functions.
+* Use camel case for variables and functions, uppercase 
+  for constants and pascal case for constructors.
 
-* Use uppercase for constants.
-
-* Use pascal case for constructors.
+  ``` javascript
+  
+  // Variables in camel case
+  var ourCompanyName = "Hemnet";
+  
+  // Functions in camel case
+  function getCompanyName() {
+      return ourCompanyName;
+  }
+  
+  // Constants in uppercase
+  var URL = "http://hemnet.se/";
+  
+  // Constructors in pascal case
+  function Person(name) {
+      this.name = name;
+  }
+  ```
 
 * Use `===` and `!==` instead of `==` and `!=` to vaoid type coercion errors.
 
