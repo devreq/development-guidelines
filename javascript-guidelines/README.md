@@ -21,12 +21,12 @@ JavaScript Guidelines
   ```
   // Good
   function doSomething(arg1, arg2) {
-    return arg1 + arg2;
+      return arg1 + arg2;
   }
 
   // Bad: Function expression
   var doSomething(arg1, arg2) {
-    return arg1 + arg2;
+      return arg1 + arg2;
   }
   ```
 
