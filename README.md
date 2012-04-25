@@ -31,7 +31,12 @@ offering the same set up regardless of current environment and code base.
 
 * Aim to keep lines fewer than 80 characters.
 
+* Line breaking is typically done after an operator and the next line is 
+  indented two levels.
+
 * Never leave trailing whitespace.
+
+* Blank lines should be used to separate lines of code from unrelated lines of code.
 
 * Use spaces around operators, after commas, colons and semicolons, around `{` 
   and before `}`.
