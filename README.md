@@ -119,11 +119,12 @@ can use the extra features provided by their Markdown parser; [Redcarpet][rc].
 Credits
 -------
 
-Other open manuals, guidelines, style guides, etc. that has inspired and 
-helped us to put these development guidelines together.
+Other open manuals, articles, guidelines, style guides, etc. that has 
+inspired and helped us to put these development guidelines together.
 
+* [What is good code?](http://robots.thoughtbot.com/post/21781129461/what-is-good-code)
 * [GitHub Styleguide](https://github.com/styleguide)
 
 
-[md]: (http://daringfireball.net/projects/markdown/syntax)
+[md]: http://daringfireball.net/projects/markdown/syntax
 [rc]: https://github.com/tanoku/redcarpet
