@@ -62,6 +62,8 @@ References
 
 * [Maintainable JavaScript][r1]
 * [jQuery Events: Stop (Mis)Using Return False][r2]
+* [Principles of Writing Consistent, Idiomatic JavaScript][r3]
 
 [r1]: http://www.amazon.com/Maintainable-JavaScript-Nicholas-C-Zakas/dp/1449327680?tag=nczonline-20
 [r2]: http://fuelyourcoding.com/jquery-events-stop-misusing-return-false/
+[r3]: https://github.com/rwldrn/idiomatic.js
