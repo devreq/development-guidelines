@@ -2,6 +2,42 @@ Git Guidelines
 ==============
 
 
+Workflow Example
+----------------
+
+ 1. Pull to update your local master
+
+    `git pull origin master`
+
+ 2. Checkout a feature branch (include Pivotal Story ID if available)
+
+    `git checkout -b dorma-calculator-ad-25548339`
+
+ 3. Do work in your feature branch, committing early and often
+
+ 4. Rebase frequently to incorporate upstream changes
+
+    ```
+    git fetch origin master
+    git rebase origin/master
+    ```
+
+ 5. Interactive rebase (squash) your commits
+
+    `git rebase -i origin/master`
+
+ 6. Merge your changes with master
+
+    ```
+    git checkout master
+    git merge dorma-calculator-ad-25548339
+    ```
+
+ 7. Push your changes to the upstream
+
+    `git push origin master`
+
+
 Commit Messages
 ---------------
 
@@ -42,41 +78,6 @@ Further paragraphs come after blank lines.
 
 - Use a hanging indent
 ```
-
-Workflow Example
-----------------
-
- 1. Pull to update your local master
-
-    `git pull origin master`
-
- 2. Checkout a feature branch (include Pivotal Story ID if available)
-
-    `git checkout -b dorma-calculator-ad-25548339`
-
- 3. Do work in your feature branch, committing early and often
-
- 4. Rebase frequently to incorporate upstream changes
-
-    ```
-    git fetch origin master
-    git rebase origin/master
-    ```
-
- 5. Interactive rebase (squash) your commits
-
-    `git rebase -i origin/master`
-
- 6. Merge your changes with master
-
-    ```
-    git checkout master
-    git merge dorma-calculator-ad-25548339
-    ```
-
- 7. Push your changes to the upstream
-
-    `git push origin master`
 
 
 References
