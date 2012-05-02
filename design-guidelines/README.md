@@ -10,6 +10,13 @@ Design Guidelines
 
 * Start from the barebones capabilities of small mobile devices first.
 
+* Reevaluate early and often.
+
+  * **Value**. Is it useful?
+  * **Usability**. Is it easy to use?
+  * **Adoptability**. Is it easy to start using?
+  * **Desirability**. Is it fun and engaging?
+
 
 Layout
 ------
@@ -46,7 +53,9 @@ References
 
 * [An Event Apart: Rolling Up Our Responsive Sleeves (lukew.com)][r1]
 * [LukeW | An Event Apart: Content First (lukew.com)][r2]
+* [More Than Usability: The Four Elements of User Experience, Part I :: UXmatters][r3]
 
 
 [r1]: http://www.lukew.com/ff/entry.asp?1530
 [r2]: http://www.lukew.com/ff/entry.asp?1525
+[r3]: http://uxmatters.com/mt/archives/2012/04/more-than-usability-the-four-elements-of-user-experience-part-i.php
