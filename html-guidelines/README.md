@@ -1,6 +1,10 @@
 HTML Guidelines
 ===============
 
+* HTML5 doctype is preferred for all HTML documents.
+
+  `<!doctype html>`
+
 * Use lowercase for all elements and attribute names.
 
 * Explicitly include all start and end tags.
@@ -10,6 +14,9 @@ HTML Guidelines
     ``` html
     <header role="banner"></header>
     ```
+
+* Do not use entity references, except for characters with special meaning in HTML 
+  (like `<` and `&`) as well as control or “invisible” characters (like no-break spaces).
 
 *   Only use <a> for actual working links.
 
@@ -44,7 +51,9 @@ References
 * [HTML5 syntax guidelines – 456 Berea Street][r1]
 * [End tags, semi-colons and maintainable code – 456 Berea Street][r2]
 * [Let's talk about semantics][r3]
+* [Google HTML/CSS Style Guide][r4]
 
 [r1]: http://www.456bereastreet.com/archive/201011/html5_syntax_guidelines/
 [r2]: http://www.456bereastreet.com/archive/201204/end_tags_semi-colons_and_maintainable_code/
 [r3]: http://html5doctor.com/lets-talk-about-semantics/
+[r4]: http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml
