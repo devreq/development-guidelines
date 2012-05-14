@@ -116,6 +116,17 @@ in [Markdown][md]. Since all of these documents are published on GitHub we
 can use the extra features provided by their Markdown parser; [Redcarpet][rc].
 
 
+Third-Party Resources
+---------------------
+
+* **Trust, but verify** – 3rd party content can be tremendously useful but always 
+  comes with risks. Before using any 3rd party resources we make sure to verify 
+  that it adheres to our standards and runs no risk of negativily affect the 
+  user experience and maintainence of our products.
+
+* Never link to resources (e.g. CDN hosted JavaScript) outside of our control.
+
+
 Credits
 -------
 
